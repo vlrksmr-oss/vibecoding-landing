@@ -1,0 +1,48 @@
+# Локальные данные проекта и внешние секреты
+.local/
+secrets/
+.secrets/
+
+# Переменные окружения: безопасные явно названные шаблоны остаются доступными
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Приватные ключи и распространённые файлы учётных данных
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.ppk
+.netrc
+.htpasswd
+
+# Зависимости и виртуальные окружения
+node_modules/
+.venv/
+venv/
+__pycache__/
+pycache/
+
+# Кэши инструментов
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Временные файлы, журналы и локальные резервные копии
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+
+# Служебные файлы Windows и macOS
+Thumbs.db
+Desktop.ini
+.DS_Store

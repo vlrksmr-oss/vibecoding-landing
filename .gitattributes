@@ -1,0 +1,10 @@
+# Автоматически определять текстовые файлы и нормализовать окончания строк
+* text=auto
+
+# Скрипты POSIX используют LF
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Скрипты Windows используют CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
