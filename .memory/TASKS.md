@@ -10,4 +10,4 @@
 - Предстоит — Подтвердить у правообладателя условия бесплатного доступа и перепродажи курса.
 - Готово — Создать публичный GitHub-репозиторий `vlrksmr-oss/vibecoding-landing` и отправить `main`.
 - Готово — Включить GitHub Actions как source в Settings → Pages.
-- В работе — Повторно запустить workflow и проверить публикацию GitHub Pages.
+- Готово — Успешно опубликовать страницу на GitHub Pages: `https://vlrksmr-oss.github.io/vibecoding-landing/`.
