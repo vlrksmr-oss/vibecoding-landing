@@ -22,6 +22,6 @@
 - Реализация: автономный `index.html` (HTML, CSS, JavaScript), без сборки и сторонних пакетов.
 - Запуск для просмотра: открыть `index.html` в современном браузере или запустить любой статический HTTP-сервер.
 - Публичный HTTPS-адрес MAX-канала хранится в `MAX_CHANNEL_URL` в конце `index.html`; кнопки открывают его в новой вкладке. При пустом или некорректном значении показывается уведомление вместо перехода.
-- GitHub Pages: `.github/workflows/deploy-pages.yml` развёртывает корневую страницу при push в `main`. Для `vlrksmr-oss/vibecoding-landing` ожидаемый URL: `https://vlrksmr-oss.github.io/vibecoding-landing/`; он станет доступен после создания репозитория и успешного первого workflow.
+- GitHub Pages: перед первым запуском в `Settings → Pages → Build and deployment → Source` вручную выбрать `GitHub Actions`; `GITHUB_TOKEN` не может создать Pages site через API. После этого `.github/workflows/deploy-pages.yml` развёртывает страницу при push в `main`. URL: `https://vlrksmr-oss.github.io/vibecoding-landing/`.
 - Выдача доступа, проверка подписки, аналитика и сбор контактных данных не реализованы. Не заявлять об их автоматизации.
 - Фактические условия курса и лицензии требуется подтвердить у правообладателя до публикации рекламных обещаний.

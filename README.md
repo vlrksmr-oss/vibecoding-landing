@@ -4,7 +4,7 @@
 
 ## Начало работы
 
-Откройте `index.html` в браузере или разместите его на статическом хостинге. GitHub Pages развёртывается workflow-файлом `.github/workflows/deploy-pages.yml` при отправке изменений в `main`. Для репозитория `vlrksmr-oss/vibecoding-landing` адрес сайта будет `https://vlrksmr-oss.github.io/vibecoding-landing/` после успешного первого развёртывания.
+Откройте `index.html` в браузере или разместите его на статическом хостинге. Перед первым развёртыванием в репозитории выберите **Settings → Pages → Build and deployment → Source → GitHub Actions**. После этого workflow `.github/workflows/deploy-pages.yml` публикует страницу при отправке изменений в `main`. Для репозитория `vlrksmr-oss/vibecoding-landing` адрес сайта: `https://vlrksmr-oss.github.io/vibecoding-landing/`.
 
 Кнопки перехода ведут на канал MAX `https://max.ru/channel_viberon`; чтобы изменить адрес, обновите `MAX_CHANNEL_URL` в конце файла.
 
